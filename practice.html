@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Practice</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="top-navbar">
+
+    <div class="nav-left">
+
+      <div class="logo">
+        Logo
+      </div>
+
+      <div class="app-title">
+        Self Learning App
+      </div>
+
+    </div>
+
+    <div class="nav-right">
+
+      <a href="index.html" class="nav-link">
+        Home
+      </a>
+
+      <a href="lesson.html" class="nav-link">
+        Lessons
+      </a>
+
+      <a href="practice.html" class="nav-link active">
+        Practice
+      </a>
+
+    </div>
+
+  </nav>
+
+
+  <!-- PRACTICE PAGE -->
+  <main class="practice-page">
+
+    <!-- TITLE -->
+    <h1 class="practice-title">
+      Vocabulary Practice
+    </h1>
+
+
+    <!-- FLASHCARD AREA -->
+    <div class="flashcard-wrapper">
+
+
+      <!-- LEFT BUTTON -->
+      <button
+        id="prevButton"
+        class="nav-button">
+
+        Left
+
+      </button>
+
+
+      <!-- FLASHCARD -->
+      <div class="flashcard-container">
+
+        <div
+          class="flashcard"
+          id="flashcard">
+
+
+          <!-- FRONT -->
+          <div
+            class="card-face card-front"
+            id="cardFront">
+
+            Korean
+
+          </div>
+
+
+          <!-- BACK -->
+          <div
+            class="card-face card-back"
+            id="cardBack">
+
+            English
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- RIGHT BUTTON -->
+      <button
+        id="nextButton"
+        class="nav-button">
+
+        Right
+
+      </button>
+
+    </div>
+
+
+    <!-- COUNTER -->
+    <div
+      class="card-counter"
+      id="cardCounter">
+
+      1 / 1
+
+    </div>
+
+
+    <!-- COMPLETION -->
+    <div
+      class="completion-message"
+      id="completionMessage">
+
+      <h2>
+        🎉 Congratulations!
+      </h2>
+
+      <p>
+        You completed this lesson set.
+      </p>
+
+      <a
+        href="lesson.html"
+        class="back-button">
+
+        Back to Lessons
+
+      </a>
+
+    </div>
+
+  </main>
+
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
